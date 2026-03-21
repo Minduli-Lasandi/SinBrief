@@ -1,0 +1,17 @@
+{
+  "total_test_documents": 242,
+  "successful_summaries": 242,
+  "failed_documents": 0,
+  "success_rate": 100.0,
+  "output_directory": "/content/drive/MyDrive/SinBrief/Outputs/Summaries",
+  "modifications": [
+    "Legal keyword-weighted graph construction",
+    "Multi-path candidate generation with neural scoring"
+  ],
+  "parameters": {
+    "num_clusters": 3,
+    "num_paths_per_cluster": 5,
+    "max_sentence_length": 20,
+    "summary_max_length": 300
+  }
+}

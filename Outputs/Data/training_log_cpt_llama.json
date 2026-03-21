@@ -1,0 +1,24 @@
+{
+  "model": "LLaMA-3.1-8B CPT",
+  "approach": "Continual Pre-Training on Sinhala Legal Documents",
+  "base_model": "meta-llama/Meta-Llama-3.1-8B",
+  "num_documents": 964,
+  "num_chunks": 34145,
+  "best_loss": 0.2561330366970896,
+  "train_losses": [
+    0.35512471099444354,
+    0.29623345740492113,
+    0.2561330366970896
+  ],
+  "hyperparameters": {
+    "epochs": 3,
+    "learning_rate": 2e-05,
+    "batch_size": 4,
+    "chunk_size": 512,
+    "warmup_steps": 100,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "quantization": "4-bit NF4"
+  },
+  "saved_model_path": "/content/drive/MyDrive/SinBrief_Implementation/Models/CPT_Llama_Model"
+}

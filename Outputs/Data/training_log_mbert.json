@@ -1,0 +1,34 @@
+{
+  "best_val_accuracy": 0.8363122026488363,
+  "final_train_accuracy": 0.8381071784485807,
+  "final_val_accuracy": 0.8363122026488363,
+  "epochs": 3,
+  "train_losses": [
+    0.5060261989275716,
+    0.4062608130927411,
+    0.3743947453241422
+  ],
+  "val_losses": [
+    0.412171068913026,
+    0.3976952578772999,
+    0.38605164462658415
+  ],
+  "train_accuracies": [
+    0.7545247050503102,
+    0.820747741665863,
+    0.8381071784485807
+  ],
+  "val_accuracies": [
+    0.8225536839398225,
+    0.8319403368908319,
+    0.8363122026488363
+  ],
+  "total_training_samples": 31107,
+  "total_validation_samples": 7777,
+  "hyperparameters": {
+    "learning_rate": 2e-05,
+    "batch_size": 16,
+    "epochs": 3,
+    "warmup_steps": 100
+  }
+}

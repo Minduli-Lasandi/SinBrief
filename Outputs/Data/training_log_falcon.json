@@ -1,0 +1,38 @@
+{
+  "model": "Falcon-7B",
+  "approach": "Base embeddings + custom classifier (same as mBERT and Llama)",
+  "best_val_accuracy": 0.8482510288065843,
+  "final_train_accuracy": 0.8192193930041153,
+  "final_val_accuracy": 0.8482510288065843,
+  "epochs": 3,
+  "train_losses": [
+    0.6424016668595405,
+    0.49479974528061754,
+    0.424844416157331
+  ],
+  "val_losses": [
+    0.5442448553357104,
+    0.42893759139771326,
+    0.3970638365166668
+  ],
+  "train_accuracies": [
+    0.6207561728395061,
+    0.7799639917695473,
+    0.8192193930041153
+  ],
+  "val_accuracies": [
+    0.7613168724279835,
+    0.8320473251028807,
+    0.8482510288065843
+  ],
+  "total_training_samples": 31107,
+  "total_validation_samples": 7777,
+  "hyperparameters": {
+    "learning_rate": 2e-05,
+    "batch_size": 16,
+    "epochs": 3,
+    "warmup_steps": 100,
+    "quantization": "4-bit",
+    "base_model": "AutoModel (no generation head)"
+  }
+}

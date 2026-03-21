@@ -1,0 +1,34 @@
+{
+  "model": "Llama-3.1-8B",
+  "approach": "Base embeddings + custom classifier (same as mBERT)",
+  "best_val_accuracy": 0.884130658436214,
+  "final_train_accuracy": 0.8744855967078189,
+  "final_val_accuracy": 0.884130658436214,
+  "epochs": 3,
+  "train_losses": [
+    0.44767162431445384,
+    0.31181946236049995,
+    0.2792484299873803
+  ],
+  "val_losses": [],
+  "train_accuracies": [
+    0.7750450102880658,
+    0.8590213477366255,
+    0.8744855967078189
+  ],
+  "val_accuracies": [
+    0.8536522633744856,
+    0.8818158436213992,
+    0.884130658436214
+  ],
+  "total_training_samples": 31107,
+  "total_validation_samples": 7777,
+  "hyperparameters": {
+    "learning_rate": 2e-05,
+    "batch_size": 16,
+    "epochs": 3,
+    "warmup_steps": 100,
+    "quantization": "4-bit",
+    "base_model": "AutoModel (no generation head)"
+  }
+}

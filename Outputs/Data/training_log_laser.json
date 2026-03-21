@@ -1,0 +1,39 @@
+{
+  "model": "LASER",
+  "approach": "Frozen LASER embeddings (1024-dim) + custom classifier",
+  "best_val_accuracy": 0.7736916548797736,
+  "final_train_accuracy": 0.762657922654065,
+  "final_val_accuracy": 0.7736916548797736,
+  "epochs": 3,
+  "train_losses": [
+    0.6321545259964804,
+    0.5455542916503847,
+    0.5145374691042005
+  ],
+  "val_losses": [
+    0.5659977360427747,
+    0.5162492735307564,
+    0.5027794938924621
+  ],
+  "train_accuracies": [
+    0.6531970296074838,
+    0.7459735750795641,
+    0.762657922654065
+  ],
+  "val_accuracies": [
+    0.7432171788607432,
+    0.7677767776777678,
+    0.7736916548797736
+  ],
+  "total_training_samples": 31107,
+  "total_validation_samples": 7777,
+  "hyperparameters": {
+    "learning_rate": 2e-05,
+    "batch_size": 16,
+    "epochs": 3,
+    "warmup_steps": 100,
+    "embedding_dim": 1024,
+    "laser_language": "sin_Sinh",
+    "encoder_frozen": true
+  }
+}

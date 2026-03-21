@@ -1,0 +1,8 @@
+{
+  "total_train_docs": 964,
+  "total_test_docs": 242,
+  "avg_doc_length": 9902,
+  "avg_sentences_per_doc": 35,
+  "min_doc_length": 782,
+  "max_doc_length": 57964
+}
