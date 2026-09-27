@@ -16,7 +16,7 @@ SinBrief/
 └── Legal_Keywords.txt     Predefined Sinhala legal keyword list
 ```
 
-##  Models
+## Models
 
 Five sentence scoring models are used within the framework:
 
@@ -28,7 +28,7 @@ Five sentence scoring models are used within the framework:
 
 ---
 
-##  Pipeline
+## Pipeline
 
 1. **Sentence Extraction** — Split document by punctuation, filter short sentences
 2. **Sentence Clustering** — Group semantically similar sentences using agglomerative clustering
@@ -39,13 +39,13 @@ Five sentence scoring models are used within the framework:
 
 ---
 
-##  Dataset
+## Dataset
 
 This framework uses the [SinhaLegal](https://github.com/Minduli-Lasandi/SinhaLegal) dataset comprising 1,206 Sinhala legal documents (Acts and Bills), split 80/20 into training (964) and test (242) sets.
 
 ---
 
-##  Evaluation Metrics
+## Evaluation Metrics
 
 The following reference-free evaluation metrics were used:
 
@@ -61,7 +61,7 @@ The legal keywords indicated in the Legal_Keywords.txt file has been chosen on a
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 ```bash
 pip install transformers torch sinling networkx scikit-learn
@@ -71,7 +71,7 @@ pip install pandas numpy matplotlib
 ```
 
 ---
-##  Prototype 
+## Prototype 
 
 Run the file in the prototype folder or visit [SinBrief](https://huggingface.co/spaces/Minduli-Lasandi/SinBrief) on Hugging Face to get run the demo.
 
