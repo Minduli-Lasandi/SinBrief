@@ -2,6 +2,8 @@
 
 SinBrief is a hybrid abstractive summarisation framework for Sinhala legal documents that does not require human-annotated training data. The framework combines domain-aware word graph construction with a sentence scoring mechanism to generate abstractive summaries from Sinhala legal text.
 
+Paper - https://arxiv.org/pdf/2609.32397 
+
 ---
 ## Repository Structure
 
@@ -76,6 +78,23 @@ pip install pandas numpy matplotlib
 Run the file in the prototype folder or visit [SinBrief](https://huggingface.co/spaces/Minduli-Lasandi/SinBrief) on Hugging Face to get run the demo.
 
 ---
+
+## Citation
+
+```bibtex
+@misc{lasandi2026sinbriefhybridframeworkabstractive,
+      title={SinBrief: A Hybrid Framework for Abstractive Text Summarisation of Sinhala Legal Documents}, 
+      author={Minduli Lasandi and Nevidu Jayatilleke},
+      year={2026},
+      eprint={2609.32397},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2609.32397}, 
+}
+```
+
+---
+
 ## Acknowledgements
 
 We thank Ms. Sadini Jaburagoda, Attorney-at-Law, for reviewing the Sinhala legal keyword set and providing expert feedback on its domain relevance.
